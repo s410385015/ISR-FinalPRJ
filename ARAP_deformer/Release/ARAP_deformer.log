@@ -1,190 +1,26 @@
-﻿已經開始建置於 2019/1/13 上午 10:26:18。
+﻿已經開始建置於 2019/1/14 上午 01:25:57。
      1>節點 2 (Build 目標) 上的專案 "C:\Users\ec131b\Desktop\Yu\互動式行變\FinalPJ\Final Project\ARAP_deformer\ARAP_deformer\ARAP_deformer.vcxproj"。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include/Eigen /I../include/glut /I../ARAP_deformer /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\Laplacian.cpp glm.cpp main.cpp mtxlib.cpp trackball.cpp
-         Laplacian.cpp
-     1>..\..\..\..\Laplacian.cpp(20): warning C4018: '<' : signed/unsigned 不相符
-     1>..\..\..\..\Laplacian.cpp(27): warning C4018: '<' : signed/unsigned 不相符
-     1>..\..\..\..\Laplacian.cpp(34): warning C4018: '<' : signed/unsigned 不相符
-     1>..\..\..\..\Laplacian.cpp(38): warning C4018: '<' : signed/unsigned 不相符
-     1>..\..\..\..\Laplacian.cpp(142): warning C4018: '<' : signed/unsigned 不相符
-     1>..\..\..\..\Laplacian.cpp(153): warning C4018: '<' : signed/unsigned 不相符
-     1>..\..\..\..\Laplacian.cpp(185): warning C4018: '<' : signed/unsigned 不相符
-     1>..\..\..\..\Laplacian.cpp(209): warning C4018: '<' : signed/unsigned 不相符
-     1>..\..\..\..\Laplacian.cpp(231): warning C4018: '<' : signed/unsigned 不相符
-         glm.cpp
-     1>glm.cpp(191): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : 請參閱 'strdup' 的宣告
-     1>glm.cpp(236): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : 請參閱 'strdup' 的宣告
-     1>glm.cpp(261): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 請參閱 'sprintf' 的宣告
-     1>glm.cpp(267): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 請參閱 'strcpy' 的宣告
-     1>glm.cpp(274): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 請參閱 'strcpy' 的宣告
-     1>glm.cpp(276): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 請參閱 'strcat' 的宣告
-     1>glm.cpp(285): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : 請參閱 'strdup' 的宣告
-     1>glm.cpp(316): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 請參閱 'strcpy' 的宣告
-     1>glm.cpp(317): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 請參閱 'strcat' 的宣告
-     1>glm.cpp(320): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 請參閱 'fopen' 的宣告
-     1>glm.cpp(330): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(339): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 請參閱 'sscanf' 的宣告
-     1>glm.cpp(371): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : 請參閱 'strdup' 的宣告
-     1>glm.cpp(375): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(383): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 請參閱 'sscanf' 的宣告
-     1>glm.cpp(385): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : 請參閱 'strdup' 的宣告
-     1>glm.cpp(389): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(400): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(406): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(412): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(424): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : 請參閱 'strdup' 的宣告
-     1>glm.cpp(429): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 請參閱 'sprintf' 的宣告
-     1>glm.cpp(463): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 請參閱 'strcpy' 的宣告
-     1>glm.cpp(464): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 請參閱 'strcat' 的宣告
-     1>glm.cpp(468): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 請參閱 'fopen' 的宣告
-     1>glm.cpp(521): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(552): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 請參閱 'sscanf' 的宣告
-     1>glm.cpp(553): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : 請參閱 'strdup' 的宣告
-     1>glm.cpp(572): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(576): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 請參閱 'sscanf' 的宣告
-     1>glm.cpp(577): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(578): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(581): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(585): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 請參閱 'sscanf' 的宣告
-     1>glm.cpp(587): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(588): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(591): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(595): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 請參閱 'sscanf' 的宣告
-     1>glm.cpp(597): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(598): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(601): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(607): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(608): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(611): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(672): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(684): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(689): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 請參閱 'sprintf' 的宣告
-     1>glm.cpp(698): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(704): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(711): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 請參閱 'sscanf' 的宣告
-     1>glm.cpp(731): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(735): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 請參閱 'sscanf' 的宣告
-     1>glm.cpp(742): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(745): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(750): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(760): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 請參閱 'sscanf' 的宣告
-     1>glm.cpp(766): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(770): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(776): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(790): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 請參閱 'sscanf' 的宣告
-     1>glm.cpp(794): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(797): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(802): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(816): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 請參閱 'sscanf' 的宣告
-     1>glm.cpp(818): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(820): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(824): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
-     1>glm.cpp(1413): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 請參閱 'fopen' 的宣告
-     1>glm.cpp(1422): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : 請參閱 'strdup' 的宣告
-     1>glm.cpp(1535): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 請參閱 'fopen' 的宣告
-     1>glm.cpp(1932): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 請參閱 'fopen' 的宣告
-     1>glm.cpp(1953): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 請參閱 'sscanf' 的宣告
-     1>glm.cpp(1955): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 請參閱 'sscanf' 的宣告
-     1>glm.cpp(1957): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 請參閱 'sscanf' 的宣告
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include/GL /I../include/Eigen /I../include/glut /I../ARAP_deformer /I../include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>main.cpp(69): warning C4018: '<' : signed/unsigned 不相符
-     1>main.cpp(73): warning C4018: '<' : signed/unsigned 不相符
-     1>main.cpp(86): warning C4018: '<' : signed/unsigned 不相符
-     1>main.cpp(178): warning C4018: '<' : signed/unsigned 不相符
-     1>main.cpp(189): warning C4018: '<' : signed/unsigned 不相符
-     1>main.cpp(197): warning C4018: '<' : signed/unsigned 不相符
-     1>main.cpp(284): warning C4018: '<=' : signed/unsigned 不相符
-     1>main.cpp(312): warning C4018: '<=' : signed/unsigned 不相符
-     1>main.cpp(338): warning C4018: '<=' : signed/unsigned 不相符
-     1>main.cpp(373): warning C4018: '<' : signed/unsigned 不相符
-     1>main.cpp(377): warning C4018: '<' : signed/unsigned 不相符
-     1>main.cpp(388): warning C4018: '<' : signed/unsigned 不相符
-     1>main.cpp(398): warning C4018: '<' : signed/unsigned 不相符
-     1>main.cpp(413): warning C4018: '<' : signed/unsigned 不相符
-     1>main.cpp(444): warning C4018: '<' : signed/unsigned 不相符
-     1>main.cpp(469): warning C4018: '<' : signed/unsigned 不相符
-     1>main.cpp(607): warning C4018: '<=' : signed/unsigned 不相符
-     1>main.cpp(615): warning C4018: '<' : signed/unsigned 不相符
-         mtxlib.cpp
-     1>mtxlib.cpp(1331): warning C4172: 傳回區域變數或暫存的位址
-         trackball.cpp
+     1>main.cpp(403): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(407): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(424): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(451): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(455): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(466): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(476): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(491): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(569): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(577): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(735): warning C4018: '<=' : signed/unsigned 不相符
+     1>main.cpp(763): warning C4018: '<=' : signed/unsigned 不相符
+     1>main.cpp(807): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(832): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(946): warning C4018: '<=' : signed/unsigned 不相符
+     1>main.cpp(954): warning C4018: '<' : signed/unsigned 不相符
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ec131b\Desktop\Yu\互動式行變\FinalPJ\Final Project\ARAP_deformer\Release\ARAP_deformer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../include/glut glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ec131b\Desktop\Yu\互動式行變\FinalPJ\Final Project\ARAP_deformer\Release\ARAP_deformer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ec131b\Desktop\Yu\互動式行變\FinalPJ\Final Project\ARAP_deformer\Release\ARAP_deformer.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO Release\Laplacian.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ec131b\Desktop\Yu\互動式行變\FinalPJ\Final Project\ARAP_deformer\Release\ARAP_deformer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../include/glut /LIBPATH:../include/GL glut32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ec131b\Desktop\Yu\互動式行變\FinalPJ\Final Project\ARAP_deformer\Release\ARAP_deformer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ec131b\Desktop\Yu\互動式行變\FinalPJ\Final Project\ARAP_deformer\Release\ARAP_deformer.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO Release\Laplacian.obj
          Release\glm.obj
          Release\main.obj
          Release\mtxlib.obj
@@ -198,4 +34,4 @@
 
 建置成功。
 
-經過時間 00:00:08.55
+經過時間 00:00:05.60
