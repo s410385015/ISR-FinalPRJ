@@ -1,0 +1,65 @@
+﻿已經開始建置於 2019/1/13 上午 07:55:46。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\ec131b\Desktop\Yu\互動式行變\FinalPJ\Final Project\ARAP_deformer\ARAP_deformer\ARAP_deformer.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include/Eigen /I../include/glut /I../ARAP_deformer /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\Laplacian.cpp main.cpp
+         main.cpp
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(69): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(73): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(86): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(178): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(189): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(197): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(284): warning C4018: '<=' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(312): warning C4018: '<=' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(338): warning C4018: '<=' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(373): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(377): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(388): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(398): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(404): warning C4553: '==' : 運算子無效; 要使用 '=' 嗎?
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(413): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(445): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(470): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(611): warning C4018: '<=' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\arap_deformer\main.cpp(619): warning C4018: '<' : signed/unsigned 不相符
+         Laplacian.cpp
+     1>c:\users\ec131b\desktop\yu\互動式行變\laplacian.cpp(20): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\laplacian.cpp(27): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\laplacian.cpp(34): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\laplacian.cpp(38): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\laplacian.cpp(142): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\laplacian.cpp(153): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\laplacian.cpp(184): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\laplacian.cpp(208): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\laplacian.cpp(238): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\include\eigen\eigen\src\sparsecore\sparsematrix.h(951): warning C4018: '<' : signed/unsigned 不相符
+                 c:\users\ec131b\desktop\yu\互動式行變\finalpj\final project\arap_deformer\include\eigen\eigen\src\sparsecore\sparsematrix.h(1012) : 請參閱所要編譯的函式 樣板 具現化 'void Eigen::internal::set_from_triplets<InputIterators,Eigen::SparseMatrix<double,0,int>>(const InputIterator &,const InputIterator &,SparseMatrixType &,int)' 的參考
+                 with
+                 [
+                     InputIterators=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Eigen::Triplet<double,unsigned int>>>>
+         ,            InputIterator=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Eigen::Triplet<double,unsigned int>>>>
+         ,            SparseMatrixType=Eigen::SparseMatrix<double,0,int>
+                 ]
+                 c:\users\ec131b\desktop\yu\互動式行變\laplacian.cpp(165) : 請參閱所要編譯的函式 樣板 具現化 'void Eigen::SparseMatrix<double,0,int>::setFromTriplets<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Eigen::Triplet<double,unsigned int>>>>>(const InputIterators &,const InputIterators &)' 的參考
+                 with
+                 [
+                     InputIterators=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Eigen::Triplet<double,unsigned int>>>>
+                 ]
+                 c:\users\ec131b\desktop\yu\互動式行變\laplacian.cpp(165) : 請參閱所要編譯的函式 樣板 具現化 'void Eigen::SparseMatrix<double,0,int>::setFromTriplets<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Eigen::Triplet<double,unsigned int>>>>>(const InputIterators &,const InputIterators &)' 的參考
+                 with
+                 [
+                     InputIterators=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Eigen::Triplet<double,unsigned int>>>>
+                 ]
+         正在產生程式碼...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ec131b\Desktop\Yu\互動式行變\FinalPJ\Final Project\ARAP_deformer\Debug\ARAP_deformer.exe" /INCREMENTAL /NOLOGO /LIBPATH:../include/glut glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ec131b\Desktop\Yu\互動式行變\FinalPJ\Final Project\ARAP_deformer\Debug\ARAP_deformer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ec131b\Desktop\Yu\互動式行變\FinalPJ\Final Project\ARAP_deformer\Debug\ARAP_deformer.lib" /MACHINE:X86 Debug\Laplacian.obj
+         Debug\glm.obj
+         Debug\main.obj
+         Debug\mtxlib.obj
+         Debug\trackball.obj
+         ARAP_deformer.vcxproj -> C:\Users\ec131b\Desktop\Yu\互動式行變\FinalPJ\Final Project\ARAP_deformer\Debug\ARAP_deformer.exe
+     1>專案 "C:\Users\ec131b\Desktop\Yu\互動式行變\FinalPJ\Final Project\ARAP_deformer\ARAP_deformer\ARAP_deformer.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:05.85
